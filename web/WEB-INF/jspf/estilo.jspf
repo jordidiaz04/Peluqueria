@@ -1,0 +1,8 @@
+<link rel="shortcut icon" href="<%=request.getContextPath()%>/assets/global/images/favicon.png">
+
+<link href="<%=request.getContextPath()%>/assets/global/css/style.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/assets/global/css/theme.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/assets/global/css/ui.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/assets/global/plugins/bootstrap-loading/lada.min.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/assets/css/sweetalert2.min.css" rel="stylesheet">
+<link href="<%=request.getContextPath()%>/assets/css/styles.css" rel="stylesheet">
