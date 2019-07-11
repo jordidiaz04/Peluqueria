@@ -48,12 +48,11 @@ function cargarDatosIniciales(data) {
     else {
         if (data[1].length === 0)
             mostrarMensajeInfo('No se encuentran registros.');
-        else {
-            listaMenusPadre = data[1].filter(function (item) {
-                return item.EsPadre === true & item.Estado === true;
-            });
-            llenarComboBox(listaMenusPadre, 'cmbMenusPadre', ['IdMenu', 'Titulo']);
-        }
+        
+        listaMenusPadre = data[1].filter(function (item) {
+            return item.EsPadre === true & item.Estado === true;
+        });
+        llenarComboBox(listaMenusPadre, 'cmbMenusPadre', ['IdMenu', 'Titulo']);
         listaMenus = data[1];
         generarTabla();
     }
